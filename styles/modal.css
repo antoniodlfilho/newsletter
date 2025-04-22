@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(235, 18%, 26%);
+}
+
+.newsletter-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 25px;
+  gap: 110px;
+}
+
+.info-modal {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.info-modal h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: hsl(234, 29%, 20%);
+}
+
+.info-modal p {
+  width: 360px;
+  font-weight: 400;
+  margin: 20px 0px 20px 0px;
+  color: hsl(234, 29%, 20%);
+}
+
+.info-modal ul {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.info-modal ul li {
+  color: hsl(234, 29%, 20%);
+  font-weight: 400;
+  display: flex;
+  gap: 12px;
+}
+
+.option-email {
+  margin-top: 28px;
+}
+
+.option-email label {
+  font-size: 13px;
+  font-weight: 500;
+  color: hsl(234, 29%, 20%);
+}
+
+.option-email input {
+  display: block;
+  border: 1px solid hsl(0, 0%, 58%);
+  border-radius: 10px;
+  padding: 17px 160px 17px 25px;
+  margin-bottom: 22px;
+}
+
+.option-email button {
+  padding: 17px 65.5px 17px 65.5px;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
