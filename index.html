@@ -32,6 +32,7 @@
 
       <div class="option-email">
         <label for="email">Email address</label>
+        <span id="result_email"></span>
         <input type="text" name="email" id="email_valid" placeholder="email@company.com">
         <button>Subscribe to monthly newsletter</button>
       </div>
@@ -43,16 +44,15 @@
 
   </section>
 
-  <!-- Success message start -->
-
-  <!-- Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message -->
-
-  <!-- Success message end -->
+  <section class="email-sent">
+    <img src="assets/images/icon-success.svg" alt="">
+    <h1>Thanks for subscribing!</h1>
+    <p>
+      A confirmation email has been sent to <span class="email-confirm" id="email_confirm">ash@loremcompany.com</span>. 
+      Please open it and click the button inside to confirm your subscription.
+    </p>
+    <button>Dismiss message</button>
+  </section>
 
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
