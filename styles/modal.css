@@ -11,7 +11,7 @@ body {
   display: flex;
   align-items: center;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 25px;
   gap: 110px;
 }
@@ -153,7 +153,7 @@ body {
 }
 
 .invalid {
-  color: hsla(4, 100%, 67%, 0.774) ;
+  color: hsla(4, 100%, 67%, 0.774);
   background-color: hsla(4, 100%, 60%, 0.281);
   border: 1px solid hsla(4, 100%, 67.1%, 0.53) !important;
 }
@@ -168,4 +168,48 @@ body {
 
 .active {
   display: flex;
+}
+
+@media (max-width: 1440px) {
+  .newsletter-modal {
+    gap: 60px;
+  }
+
+  .info-modal {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .info-modal ul li {
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .img {
+    width: 310px;
+  }
+
+  .info-modal h1 {
+    font-size: 44px;
+  }
+
+  .info-modal p {
+    margin: 10px 0px 15px 0px;
+  }
+
+  .option-email {
+    margin-top: 20px;
+  }
+
+  .option-email input {
+    padding: 15px 160px 15px 25px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .option-email button {
+    padding: 15px 67.5px 15px 67px;
+    font-size: 15px;
+  }
 }
