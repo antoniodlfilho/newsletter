@@ -208,8 +208,40 @@ body {
     font-size: 15px;
   }
 
+  .option-email label {
+    margin-right: 145px;
+  }
+
   .option-email button {
     padding: 15px 67.5px 15px 67px;
     font-size: 15px;
+  }
+
+  /*CONFIRMAÇÂO DE ENVIO*/
+
+  .email-sent img {
+    width: 50px;
+    margin-top: 5px;
+  }
+
+  .email-sent {
+    padding: 40px;
+    width: 410px;
+    height: 422px;
+  }
+
+  .email-sent h1 {
+    font-size: 47px;
+    margin-top: 20px;
+  }
+
+  .email-sent p {
+    font-size: 15px;
+    width: 320px;
+    margin: 16px 0px 25px 0px;
+  }
+
+  .email-sent button {
+    padding: 15px 100px 15px 100px;
   }
 }

@@ -11,7 +11,7 @@ function emailIsValid() {
   if (emailRegex.test(emailValido.value)) {
     newsletter.classList.add("out");
     newsletterConfirmed.classList.add("active");
-    emailConfirm.textContent= emailValido.value;
+    emailConfirm.textContent = emailValido.value;
   } else {
     emailValido.classList.add("invalid");
     resultEmail.textContent = "Valid email required";
