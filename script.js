@@ -11,10 +11,10 @@ function emailIsValid() {
   if (emailRegex.test(emailValido.value)) {
     newsletter.classList.add("out");
     newsletterConfirmed.classList.add("active");
-    emailConfirm.innerHTML = emailValido.value;
+    emailConfirm.textContent= emailValido.value;
   } else {
     emailValido.classList.add("invalid");
-    resultEmail.innerHTML = "Valid email required";
+    resultEmail.textContent = "Valid email required";
   }
 }
 
