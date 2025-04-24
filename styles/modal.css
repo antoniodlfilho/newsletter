@@ -151,3 +151,21 @@ body {
     hsl(4, 100%, 67%)
   );
 }
+
+.invalid {
+  color: hsla(4, 100%, 67%, 0.774) ;
+  background-color: hsla(4, 100%, 60%, 0.281);
+  border: 1px solid hsla(4, 100%, 67.1%, 0.53) !important;
+}
+
+.alert-erro {
+  color: hsla(4, 100%, 67%, 0.856);
+}
+
+.out {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
