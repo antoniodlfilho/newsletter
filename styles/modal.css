@@ -1,13 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: hsl(235, 18%, 26%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .newsletter-modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   background-color: hsl(0, 0%, 100%);
@@ -17,6 +17,8 @@ body {
 }
 
 .info-modal {
+  width: 100%;
+  max-width: 362px;
   margin-left: 20px;
   margin-bottom: 20px;
 }
@@ -63,6 +65,7 @@ body {
 }
 
 .option-email input {
+  width: 100%;
   display: block;
   border: 1px solid hsl(0, 0%, 58%);
   border-radius: 10px;
@@ -247,7 +250,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   body {
     background-color: hsl(0, 0%, 100%);
     /* overflow: hidden; */
@@ -263,6 +266,12 @@ body {
     padding: 0px;
     align-items: center;
     justify-content: flex-end;
+  }
+
+  .img img {
+    /* Outras props */
+    max-height: 320px;
+    object-fit: cover;
   }
 
   .img {
